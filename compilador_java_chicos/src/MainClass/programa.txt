@@ -1,0 +1,23 @@
+/* Programa de ejemplo con constantes, arreglos y operadores extendidos */
+const double PI = 3.1416;
+long _x;
+double _y;
+long vector[5];
+
+main() {
+    _x = 10;
+    _y = 2.5;
+    _x += 5;
+
+    vector[0] = 1;
+    if (_x > 5 && true) then
+        write(_x);
+    else
+        write(_y);
+
+    while (_x < 20) {
+        _x += 1;
+    }
+
+    write("Fin");
+}
